@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Sensitive company data
+lookup.xlsx
+Vevők.xlsx
+
+# Cache
+Cache/*
+!Cache/.gitkeep
+*.pkl
+*.tmp
+
+# Input folders
+Input/*
+!Input/.gitkeep
+
+Input_EK/*
+!Input_EK/.gitkeep
+
+# Generated output
+Output/*
+!Output/.gitkeep
+
+# OCR installation
+Tesseract-OCR/
+
+# Temporary Excel files
+~$*.xlsx
+
+# Generated PDFs and images
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.webp
